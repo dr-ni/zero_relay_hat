@@ -6,6 +6,7 @@ all:
 	@echo "  sudo make uninstall"
 
 install:
+	sudo apt install wiringpi
 	sudo cp rel*_* /usr/local/bin/
 
 uninstall:
