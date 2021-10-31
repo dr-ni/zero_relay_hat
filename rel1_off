@@ -1,0 +1,3 @@
+#!/bin/bash
+gpio export 22 out #bcm
+gpio write 3 0 #wPi 3 = bcm 22
